@@ -25,7 +25,7 @@ void classifySymbol(char c) {
 int main() {
     std::string input;
     
-    std::cout << "Enter the symbol: ";
+    std::cout << "Enter a symbol (string of symbols): ";
     std::cin >> input;
 
     for (char c : input) {
